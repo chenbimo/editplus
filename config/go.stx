@@ -1,0 +1,187 @@
+#TITLE=Go
+
+#DELIMITER=,(){}[]-+*%/="'~!&|\<>?:;.#
+#QUOTATION1='
+#QUOTATION2="
+#QUOTATION3=`
+#CONTINUE_QUOTE=n
+#LINECOMMENT=//
+#COMMENTON=/*
+#COMMENTOFF=*/
+#ESCAPE=\
+#CASE=y
+#NUMBER_PATTERN=cpp
+
+; Reserved words
+#KEYWORD=Keywords
+
+; Keywords
+break
+case
+chan
+const
+continue
+default
+defer
+else
+fallthrough
+for
+func
+go
+goto
+if
+import
+interface
+map
+package
+range
+return
+select
+struct
+switch
+type
+var
+
+#KEYWORD=Functions
+
+; Functions
+append
+cap
+close
+closed
+cmplx
+copy
+imag
+len
+make
+new
+panic
+print
+println
+real
+recover
+
+; default
+main
+
+#KEYWORD=Operators
+; Operators and Delimiters
+
+; Statements
+++
+--
+
+; Arithmetic operators
++
+-
+*
+/
+%
+&
+|
+^
+&^
+<<
+>>
+
+; Unary operators
++
+-
+^
+
+; Comparison operators
+==
+!=
+<
+<=
+>
+>=
+
+; Logical operators
+&&
+||
+!
+
+; Communication operators
+<-
+
+; Assignment operators
+=
+
+; Short variable declarations
+:=
+
+; Array length equal to the maximum element index plus one
+...
+
+; Other
++=
+&=
+(
+)
+-=
+|=
+[
+]
+*=
+^=
+<-
+{
+}
+/=
+<<=
+,
+; ; is one too, how do I make this show?
+%=
+>>=
+.
+:
+&^=
+'
+
+; Blank identifier
+_
+
+; After a backslash, certain single-character escapes represent special values
+; don't seem to work due to backslash
+;\a
+;\b
+;\f
+;\n
+;\r
+;\t
+;\v
+;\\
+;\'
+;\"
+
+; Types
+bool
+byte
+complex
+complex64
+complex128
+float
+float32
+float64
+int
+int8
+int16
+int32
+int64
+string
+uint
+uint8
+uint16
+uint32
+uint64
+uintptr
+
+; Constants
+true
+false
+iota
+
+; Zero value
+nil
+#

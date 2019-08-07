@@ -1,0 +1,28 @@
+#TITLE=YAML
+; YAML (Ruby on Rails .yml) syntax file written by Tim Huffam.
+
+#DELIMITER=,(){}[]-+*/=~&|?:;.
+#LINECOMMENT=#
+#LINECOMMENT2=
+#CASE=y
+#PREFIX1=$
+#PREFIX2=
+#PREFIX3=
+#PREFIX4=
+#PREFIX5=
+#SUFFIX1=:
+#SUFFIX2=
+#SUFFIX3=
+#SUFFIX4=
+#SUFFIX5=
+#SPECIAL_STX=
+
+
+#KEYWORD=Reserved words
+
+#KEYWORD=Sections
+development
+test
+production
+
+#

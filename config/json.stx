@@ -1,0 +1,50 @@
+#TITLE=JSON_GPF
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Purpose: JSON File Syntax Highlighting ( https://en.wikipedia.org/wiki/JSON )
+; Author: Greg Presedo-Floyd . 20/20 Consulting Inc.
+; Version: 2019.q2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+#DELIMITER=
+#QUOTATION1=
+#QUOTATION2=
+#CONTINUE_QUOTE=
+#LINE COMMENT=
+#LINECOMMENT2=
+#COMMENT ON=
+#COMMENT OFF=
+#COMMENTON2=
+#COMMENTOFF2=
+#ESCAPE=
+#CASE=n
+#PREFIX1=
+#PREFIX2=
+#PREFIX3=
+#PREFIX4=
+#PREFIX5=
+#SUFFIX1=
+#SUFFIX2=
+#SUFFIX3=
+#SUFFIX4=
+#SUFFIX5=
+#NUMBER_PATTERN=PP
+
+#KEYWORD=1: Reserved words (Brown)
+true
+false
+NULL
+
+#KEYWORD=2: Arrays: (Purple)
+[
+]
+
+#KEYWORD=3: Object/Dictionaries: (Red)
+{
+}
+
+#KEYWORD=4: Punctuation (Blue)
+:
+,
+
+#KEYWORD=5: Punctuation (Green)
+"

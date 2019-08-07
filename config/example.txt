@@ -1,0 +1,8 @@
+;关键字类型
+; custom veriable [自定变量]
+; base type [基本类型]
+; base syntax [基本语法] [90,170,150]
+; base symbol [基本符号]
+; define veriable [定义变量] + [130,130,0]
+; build in object [内建对象]
+; build in function [内建函数]

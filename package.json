@@ -1,0 +1,27 @@
+{
+  "name": "editplus",
+  "version": "1.0.0",
+  "description": "chensuiyi editplus development tool box",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenbimo/editplus.git"
+  },
+  "keywords": [
+    "editplus",
+    "tool",
+    "development"
+  ],
+  "author": "chensuiyi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chenbimo/editplus/issues"
+  },
+  "homepage": "https://github.com/chenbimo/editplus#readme",
+  "dependencies": {
+    "prettier": "^1.18.2"
+  }
+}

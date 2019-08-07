@@ -1,0 +1,23 @@
+#TITLE=Batch & Command-line WindowsXP
+; Ntcmds.acp Version 1.0
+; Last Modified: October 4th, 2006
+; Author: Steven (freshbatch@gmail.com)
+; Description: Command-Line & Batch Files in Windows XP
+; This file is based on Official Microsft Windows XP Pro Documentation (Command-line reference A-Z)
+; http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/ntcmds.mspx
+; %WINDIR%\Help\ntcmds.chm
+#CASE=n
+; Batch File Commands
+#T=FOR
+FOR ^! IN () DO 
+#T=IF
+IF ^! GOTO :EOF 
+#T=ELSE
+ELSE GOTO ^!
+#T=DEL
+DEL ^! /F /Q
+#T=RD
+RD ^! /S /Q
+#T=REBOOT
+SHUTDOWN -R -F -T 0
+#
